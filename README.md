@@ -6,7 +6,7 @@ More details here:
 [https://www.horizon3.ai/attack-research/red-team/connectwise-screenconnect-auth-bypass-deep-dive/](https://www.horizon3.ai/attack-research/red-team/connectwise-screenconnect-auth-bypass-deep-dive/)
 
 ## Usage
-Running this script will overwrite the existing administrative user credentials.
+Running this script will overwrite the existing administrative user credentials. The password must be at least 8 characters to be set.
 
 ```
 % python3 ScreenConnect-AuthBypass.py -h                          
